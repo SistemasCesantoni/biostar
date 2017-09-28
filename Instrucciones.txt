@@ -1,0 +1,8 @@
+#estas instrucciones se refieren a lo que uno puede o no hacer en esta rama
+#si hacen nuevos desarrollos y no están seguros de que funcione, haganlo aquí
+#refierase esta versión como una versión beta, no estable ni definitiva
+#esta rama no efecta a las demás
+#Aquí se deben de hacer todos los desarrollos para después pasarlos a la branch o rama Master
+#Que es dónde se supone se quedará como la Branch estable y final.
+
+#Saludos y mucho éxito, :) 
