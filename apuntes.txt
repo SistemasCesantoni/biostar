@@ -1,0 +1,3 @@
+EL reporte se debe de hacer diario a las 8:30am después del poleo
+
+El servidor para hacer el poleo es el .102
