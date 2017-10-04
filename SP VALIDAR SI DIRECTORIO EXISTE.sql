@@ -12,6 +12,16 @@ GO
 					EN CASO DE NO EXISTIR, LO CREA. FUNCIONA PARA ALMACENAR FOTOGRAFÍAS DE LOS CHECADORES EN UNA RUTA
 					ESPECIFICADA EN EL EQUIPO LOCAL.
 				>
+-- ACTIVAR BCP UTILITY "XP_CMDSHELL" CON LAS SIGUIENTES INSTRUCCIONES PARA CREAR EL DIRECTORIO EN CASO DE NO EXISTIR
+EXEC sp_configure 'show advanced options', 1;
+GO
+RECONFIGURE;
+GO
+EXEC sp_configure 'xp_cmdshell',1
+GO
+RECONFIGURE
+GO
+
 -- =====================================================================================================================
 */
 CREATE PROCEDURE [dbo].[validarRuta]
